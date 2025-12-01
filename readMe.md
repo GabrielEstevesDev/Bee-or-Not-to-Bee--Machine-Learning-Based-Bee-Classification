@@ -86,3 +86,9 @@ Si le fichier n'existe pas, un masque est généré via OpenCV (Précision : ⭐
 Extraction : Les bibliothèques opencv et scikit-image calculent les métriques sur les pixels isolés par le masque.
 
 Prédiction : Les données sont envoyées au modèle .pkl pour classification.
+
+--- 
+## 👥 Auteurs
+
+- [ESTEVES Gabriel](https://github.com/GabrielEstevesDev)
+- [LENOUVEL Louis](https://github.com/LenouvelLouis)
