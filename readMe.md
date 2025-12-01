@@ -42,7 +42,7 @@ insect-classifier/
     ├── binary_10.tif
     ├── binary_12.tif
     └── ...
-
+```
 🚀 Installation et Lancement Local
 1. Cloner le projet
 Bash
@@ -85,25 +85,3 @@ Si le fichier n'existe pas, un masque est généré via OpenCV (Précision : ⭐
 Extraction : Les bibliothèques opencv et scikit-image calculent les métriques sur les pixels isolés par le masque.
 
 Prédiction : Les données sont envoyées au modèle .pkl pour classification.
-
-📦 Déploiement sur Hugging Face Spaces
-Ce projet est optimisé pour Hugging Face.
-
-Créez un nouveau Space sur Hugging Face.
-
-Sélectionnez le SDK Gradio.
-
-Uploadez tous les fichiers du projet (y compris les dossiers img et masks).
-
-L'application se construira et se lancera automatiquement.
-
-🛠️ Stack Technique
-FastAPI
-
-Gradio
-
-Scikit-learn
-
-OpenCV
-
-Scikit-image
